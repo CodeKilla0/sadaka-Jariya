@@ -1,0 +1,372 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  
+  /* Primary colors - Islamic Green */
+  --color-primary: #2d6a4f;
+  --color-primary-light: #40916c;
+  --color-primary-dark: #1b4332;
+  
+  /* Accent colors - Gold */
+  --color-accent: #d4af37;
+  --color-accent-light: #f4d35e;
+  --color-accent-dark: #b8941f;
+  
+  /* Semantic tokens for shadcn/ui */
+  --color-background: #ffffff;
+  --color-foreground: #1a1a1a;
+  --color-card: #ffffff;
+  --color-card-foreground: #1a1a1a;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #1a1a1a;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f8f9fa;
+  --color-secondary-foreground: #1a1a1a;
+  --color-muted: #f8f9fa;
+  --color-muted-foreground: #495057;
+  --color-accent-foreground: #1a1a1a;
+  --color-destructive: #dc2626;
+  --color-destructive-foreground: #ffffff;
+  --color-border: #dee2e6;
+  --color-input: #dee2e6;
+  --color-ring: #2d6a4f;
+  
+  --radius: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  @theme inline {
+    --color-background: #0a0f0d;
+    --color-foreground: #f8f9fa;
+    --color-card: #1a2621;
+    --color-card-foreground: #f8f9fa;
+    --color-popover: #1a2621;
+    --color-popover-foreground: #f8f9fa;
+    --color-primary-foreground: #ffffff;
+    --color-secondary: #121a16;
+    --color-secondary-foreground: #f8f9fa;
+    --color-muted: #121a16;
+    --color-muted-foreground: #adb5bd;
+    --color-accent-foreground: #0a0f0d;
+    --color-destructive: #dc2626;
+    --color-destructive-foreground: #ffffff;
+    --color-border: #2d3c35;
+    --color-input: #2d3c35;
+    --color-ring: #2d6a4f;
+  }
+}
+
+/* Using @utility directive for Tailwind v4 to define semantic utility classes */
+
+/* Background utilities */
+@utility bg-background {
+  background-color: var(--color-background);
+}
+
+@utility bg-foreground {
+  background-color: var(--color-foreground);
+}
+
+@utility bg-card {
+  background-color: var(--color-card);
+}
+
+@utility bg-popover {
+  background-color: var(--color-popover);
+}
+
+@utility bg-primary {
+  background-color: var(--color-primary);
+}
+
+@utility bg-primary-light {
+  background-color: var(--color-primary-light);
+}
+
+@utility bg-primary-dark {
+  background-color: var(--color-primary-dark);
+}
+
+@utility bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+@utility bg-muted {
+  background-color: var(--color-muted);
+}
+
+@utility bg-accent {
+  background-color: var(--color-accent);
+}
+
+@utility bg-accent-light {
+  background-color: var(--color-accent-light);
+}
+
+@utility bg-accent-dark {
+  background-color: var(--color-accent-dark);
+}
+
+@utility bg-destructive {
+  background-color: var(--color-destructive);
+}
+
+/* Text color utilities */
+@utility text-foreground {
+  color: var(--color-foreground);
+}
+
+@utility text-background {
+  color: var(--color-background);
+}
+
+@utility text-card-foreground {
+  color: var(--color-card-foreground);
+}
+
+@utility text-popover-foreground {
+  color: var(--color-popover-foreground);
+}
+
+@utility text-primary {
+  color: var(--color-primary);
+}
+
+@utility text-primary-light {
+  color: var(--color-primary-light);
+}
+
+@utility text-primary-dark {
+  color: var(--color-primary-dark);
+}
+
+@utility text-primary-foreground {
+  color: var(--color-primary-foreground);
+}
+
+@utility text-secondary-foreground {
+  color: var(--color-secondary-foreground);
+}
+
+@utility text-muted-foreground {
+  color: var(--color-muted-foreground);
+}
+
+@utility text-accent {
+  color: var(--color-accent);
+}
+
+@utility text-accent-light {
+  color: var(--color-accent-light);
+}
+
+@utility text-accent-dark {
+  color: var(--color-accent-dark);
+}
+
+@utility text-accent-foreground {
+  color: var(--color-accent-foreground);
+}
+
+@utility text-destructive {
+  color: var(--color-destructive);
+}
+
+@utility text-destructive-foreground {
+  color: var(--color-destructive-foreground);
+}
+
+/* Border utilities */
+@utility border-border {
+  border-color: var(--color-border);
+}
+
+@utility border-input {
+  border-color: var(--color-input);
+}
+
+@utility border-primary {
+  border-color: var(--color-primary);
+}
+
+/* Body base styles */
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    @apply bg-gray-950 text-gray-50;
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes progress-fill {
+  from {
+    width: 0%;
+  }
+}
+
+/* Enhanced animations for premium hero section */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(45, 106, 79, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(45, 106, 79, 0.6);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.6s ease-out;
+}
+
+.animate-progress {
+  animation: progress-fill 2s ease-out;
+}
+
+/* New animation classes */
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.6s ease-out;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.animate-delay-100 {
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+}
+
+.animate-delay-200 {
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+}
+
+.animate-delay-300 {
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+}
+
+.animate-delay-400 {
+  animation-delay: 0.4s;
+  animation-fill-mode: both;
+}
+
+.animate-delay-500 {
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 3s infinite;
+}
+
+/* Additional utility for premium design effects */
+.text-balance {
+  text-wrap: balance;
+}
+
+.border-3 {
+  border-width: 3px;
+}

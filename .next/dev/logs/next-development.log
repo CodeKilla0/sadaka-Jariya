@@ -1,0 +1,71 @@
+[00:00:01.443] Server  LOG      ✓ Ready in 1012ms
+[00:00:10.791] Server  LOG      ○ Compiling / ...
+[00:00:16.641] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:30:16.347] Server  LOG      ✓ Compiled in 491ms
+[02:42:57.483] Server  LOG      ✓ Compiled in 209ms
+[02:43:11.123] Server  LOG      ✓ Compiled in 91ms
+[02:43:13.297] Server  LOG      ✓ Compiled in 103ms
+[02:43:14.878] Server  LOG      ✓ Compiled in 149ms
+[02:45:17.896] Server  LOG      ✓ Compiled in 134ms
+[02:45:25.681] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:45:38.344] Server  LOG      ✓ Compiled in 98ms
+[02:45:57.928] Server  LOG      ✓ Compiled in 98ms
+[02:48:42.513] Server  LOG      ✓ Compiled in 209ms
+[02:48:45.843] Server  LOG      ✓ Compiled in 83ms
+[02:48:55.564] Server  LOG      ✓ Compiled in 153ms
+[02:48:56.601] Server  LOG      ✓ Compiled in 109ms
+[02:50:05.766] Server  LOG      ✓ Compiled in 108ms
+[02:50:22.912] Server  LOG      ✓ Compiled in 64ms
+[02:52:25.139] Server  LOG      ✓ Compiled in 300ms
+[02:52:43.143] Server  LOG      ✓ Compiled in 343ms
+[02:53:19.431] Server  LOG      ✓ Compiled in 229ms
+[02:54:13.800] Server  LOG      ✓ Compiled in 108ms
+[02:54:15.799] Server  LOG      ✓ Compiled in 82ms
+[02:54:19.194] Server  LOG      ✓ Compiled in 78ms
+[02:55:35.938] Server  LOG      ✓ Compiled in 90ms
+[02:55:45.414] Server  LOG      ✓ Compiled in 111ms
+[02:56:33.166] Server  LOG      ✓ Compiled in 77ms
+[02:59:23.856] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[root-of-the-server]__bf7a6afe._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:23.860] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:23.863] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[root-of-the-server]__7ea724d4._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:23.895] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\node_modules_0df99d64._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.010] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.013] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.028] Server  ERROR    ⨯ ReferenceError: Inter is not defined
+[02:59:24.060] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[root-of-the-server]__bf7a6afe._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.062] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.064] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[root-of-the-server]__7ea724d4._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.066] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\node_modules_0df99d64._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.071] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.074] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.083] Server  ERROR    ⨯ ReferenceError: Inter is not defined
+[02:59:24.164] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[root-of-the-server]__bf7a6afe._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.176] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.182] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[root-of-the-server]__7ea724d4._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.185] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\node_modules_0df99d64._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.210] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.213] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.221] Server  ERROR    ⨯ ReferenceError: Inter is not defined
+[02:59:24.268] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[root-of-the-server]__bf7a6afe._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.295] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.299] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[root-of-the-server]__7ea724d4._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.302] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\node_modules_0df99d64._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.376] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.392] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:24.400] Server  ERROR    ⨯ ReferenceError: Inter is not defined
+[02:59:26.638] Browser ERROR   uncaughtError: ReferenceError: Inter is not defined
+[02:59:29.013] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[root-of-the-server]__bf7a6afe._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:29.017] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:29.065] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\node_modules_next_dist_0c11442c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:29.071] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:29.073] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:29.077] Server  ERROR    ⨯ ReferenceError: Inter is not defined
+[02:59:29.094] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[root-of-the-server]__bf7a6afe._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:29.107] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:29.126] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\.next\dev\server\chunks\ssr\node_modules_next_dist_0c11442c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:29.132] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:29.138] Server  ERROR   C:\Users\IsmaëlAzizDiomandé\Downloads\code\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:59:29.147] Server  ERROR    ⨯ ReferenceError: Inter is not defined
+[02:59:33.689] Server  LOG      ✓ Compiled in 1174ms
+[02:59:52.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:00:57.587] Server  LOG      ✓ Compiled in 169ms
