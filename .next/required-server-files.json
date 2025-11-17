@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\IsmaëlAzizDiomandé\\Downloads\\code",
+    "outputFileTracingRoot": "C:\\Users\\IsmaëlAzizDiomandé\\Downloads\\BabiTransit\\sadaka-Jariya",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -289,11 +289,11 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "C:\\Users\\IsmaëlAzizDiomandé\\Downloads\\code"
+      "root": "C:\\Users\\IsmaëlAzizDiomandé\\Downloads\\BabiTransit\\sadaka-Jariya"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "C:\\Users\\IsmaëlAzizDiomandé\\Downloads\\code",
+  "appDir": "C:\\Users\\IsmaëlAzizDiomandé\\Downloads\\BabiTransit\\sadaka-Jariya",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",

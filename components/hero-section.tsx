@@ -21,7 +21,7 @@ export async function HeroSection() {
       }} />
 
       <div className="relative z-10 container mx-auto px-4 py-16 lg:py-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
             
           </div>
